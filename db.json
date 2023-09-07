@@ -25,33 +25,5 @@
       "firstName": "Milos",
       "lastName": "Vuksanovic"
     },
-  ],
-
-  "groups": [
-    {
-      "id": 1,
-      "name": "Surgery",
-      "users": [1]
-    },
-    {
-      "id": 2,
-      "name": "Pediatrics",
-      "users": [2, 3]
-    },
-    {
-      "id": 3,
-      "name": "Neurology",
-      "users": [4, 5]
-    },
-    {
-      "id": 4,
-      "name": "Dermatology",
-      "users": [1,2]
-    },
-    {
-      "id": 5,
-      "name": "Psychiatry",
-      "users": [1,2,3,4,5]
-    }
   ]
 }
