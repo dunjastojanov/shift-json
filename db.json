@@ -10,6 +10,22 @@
     {
       "id": 1,
       "name": "Surgery"
+    },
+    {
+      "id": 2,
+      "name": "Pediatrics"
+    },
+    {
+      "id": 3,
+      "name": "Neurology"
+    },
+    {
+      "id": 4,
+      "name": "Dermatology"
+    },
+    {
+      "id": 5,
+      "name": "Psychiatry"
     }
   ]
 }
