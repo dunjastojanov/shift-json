@@ -5,5 +5,11 @@
       "firstName": "Dunja",
       "lastName": "Stojanov"
     }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Surgery"
+    }
   ]
 }
