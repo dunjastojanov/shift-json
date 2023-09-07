@@ -29,7 +29,8 @@
   "groups": [
     {
       "id": 1,
-      "name": "Surgery"
+      "name": "Surgery",
+      "users": [1]
     },
     {
       "id": 2,
