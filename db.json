@@ -34,19 +34,23 @@
     },
     {
       "id": 2,
-      "name": "Pediatrics"
+      "name": "Pediatrics",
+      "users": [1, 2]
     },
     {
       "id": 3,
-      "name": "Neurology"
+      "name": "Neurology",
+      "users": [3]
     },
     {
       "id": 4,
-      "name": "Dermatology"
+      "name": "Dermatology",
+      "users": [4, 5]
     },
     {
       "id": 5,
-      "name": "Psychiatry"
+      "name": "Psychiatry",
+      "users": [5]
     }
   ]
 }
