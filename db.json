@@ -4,6 +4,26 @@
       "id": 1,
       "firstName": "Dunja",
       "lastName": "Stojanov"
+    },
+    {
+      "id": 2,
+      "firstName": "Stefan",
+      "lastName": "Vuksanovic"
+    },
+    {
+      "id": 3,
+      "firstName": "Jana",
+      "lastName": "Stojanov"
+    },
+    {
+      "id": 4,
+      "firstName": "Nevena",
+      "lastName": "Vuksanovic"
+    },
+    {
+      "id": 5,
+      "firstName": "Milos",
+      "lastName": "Vuksanovic"
     }
   ],
   "groups": [
