@@ -17,14 +17,14 @@
     {
       "id": 3,
       "firstName": "Jana",
-      "lastName": "Stojanov"
+      "lastName": "Stojanov",
       "color": "purple",
       "email": "janastojanov@gmail.com"
     },
     {
       "id": 4,
       "firstName": "Nevena",
-      "lastName": "Vuksanovic"
+      "lastName": "Vuksanovic",
       "color": "purple",
       "email": "nevenavuksanovic@gmail.com"
     },
