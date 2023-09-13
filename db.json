@@ -2,73 +2,83 @@
   "users": [
     {
       "id": 1,
-      "firstName": "Dunja",
-      "lastName": "Stojanov",
+      "firstName": "Sarah",
+      "lastName": "Henderson",
       "color": "purple",
-      "email": "dunjastojanov1@gmail.com"
+      "email": "sarah@gmail.com",
+      "role": "manager"
     },
     {
       "id": 2,
       "firstName": "John",
       "lastName": "Doe",
       "color": "blue",
-      "email": "johndoe@gmail.com"
+      "email": "johndoe@gmail.com",
+      "role": "worker"
     },
     {
       "id": 3,
       "firstName": "Jane",
       "lastName": "Doe",
       "color": "green",
-      "email": "janedoe@gmail.com"
+      "email": "janedoe@gmail.com",
+      "role": "worker"
     },
     {
       "id": 4,
       "firstName": "Michael",
       "lastName": "Smith",
       "color": "red",
-      "email": "michaelsmith@gmail.com"
+      "email": "michaelsmith@gmail.com",
+      "role": "worker"
     },
     {
       "id": 5,
       "firstName": "Sarah",
       "lastName": "Johnson",
       "color": "yellow",
-      "email": "sarahjohnson@gmail.com"
+      "email": "sarahjohnson@gmail.com",
+      "role": "worker"
     },
     {
       "id": 6,
       "firstName": "James",
       "lastName": "Brown",
       "color": "orange",
-      "email": "jamesbrown@gmail.com"
+      "email": "jamesbrown@gmail.com",
+      "role": "worker"
     },
     {
       "id": 7,
       "firstName": "Anna",
       "lastName": "Taylor",
       "color": "pink",
-      "email": "annataylor@gmail.com"
+      "email": "annataylor@gmail.com",
+      "role": "worker"
     },
     {
       "id": 8,
       "firstName": "Robert",
       "lastName": "Wilson",
       "color": "brown",
-      "email": "robertwilson@gmail.com"
+      "email": "robertwilson@gmail.com",
+      "role": "worker"
     },
     {
       "id": 9,
       "firstName": "Emily",
       "lastName": "Clark",
       "color": "teal",
-      "email": "emilyclark@gmail.com"
+      "email": "emilyclark@gmail.com",
+      "role": "worker"
     },
     {
       "id": 10,
       "firstName": "Daniel",
       "lastName": "Lee",
       "color": "gold",
-      "email": "daniellee@gmail.com"
+      "email": "daniellee@gmail.com",
+      "role": "worker"
     }
   ],
   "groups": [
