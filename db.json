@@ -1,66 +1,231 @@
 {
   "users": [
     {
-      "id": 1,
-      "firstName": "Dunja",
-      "lastName": "Stojanov",
-      "color": "purple",
-      "email": "dunjastojanov2@gmail.com"
+        "id": 1,
+        "firstName": "Dunja",
+        "lastName": "Stojanov",
+        "color": "purple",
+        "email": "dunjastojanov1@gmail.com"
     },
     {
-      "id": 2,
-      "firstName": "Stefan",
-      "lastName": "Vuksanovic",
-      "color": "purple",
-      "email": "stefanvuksanovic@gmail.com"
+        "id": 2,
+        "firstName": "John",
+        "lastName": "Doe",
+        "color": "blue",
+        "email": "johndoe@gmail.com"
     },
     {
-      "id": 3,
-      "firstName": "Jana",
-      "lastName": "Stojanov",
-      "color": "purple",
-      "email": "janastojanov@gmail.com"
+        "id": 3,
+        "firstName": "Jane",
+        "lastName": "Doe",
+        "color": "green",
+        "email": "janedoe@gmail.com"
     },
     {
-      "id": 4,
-      "firstName": "Nevena",
-      "lastName": "Vuksanovic",
-      "color": "purple",
-      "email": "nevenavuksanovic@gmail.com"
+        "id": 4,
+        "firstName": "Michael",
+        "lastName": "Smith",
+        "color": "red",
+        "email": "michaelsmith@gmail.com"
     },
     {
-      "id": 5,
-      "firstName": "Milos",
-      "lastName": "Vuksanovic",
-      "color": "purple",
-      "email": "milosvuksanovic@gmail.com"
+        "id": 5,
+        "firstName": "Sarah",
+        "lastName": "Johnson",
+        "color": "yellow",
+        "email": "sarahjohnson@gmail.com"
+    },
+    {
+        "id": 6,
+        "firstName": "James",
+        "lastName": "Brown",
+        "color": "orange",
+        "email": "jamesbrown@gmail.com"
+    },
+    {
+        "id": 7,
+        "firstName": "Anna",
+        "lastName": "Taylor",
+        "color": "pink",
+        "email": "annataylor@gmail.com"
+    },
+    {
+        "id": 8,
+        "firstName": "Robert",
+        "lastName": "Wilson",
+        "color": "brown",
+        "email": "robertwilson@gmail.com"
+    },
+    {
+        "id": 9,
+        "firstName": "Emily",
+        "lastName": "Clark",
+        "color": "teal",
+        "email": "emilyclark@gmail.com"
+    },
+    {
+        "id": 10,
+        "firstName": "Daniel",
+        "lastName": "Lee",
+        "color": "gold",
+        "email": "daniellee@gmail.com"
+    },
+    {
+        "id": 11,
+        "firstName": "Olivia",
+        "lastName": "Smith",
+        "color": "turquoise",
+        "email": "oliviasmith@gmail.com"
+    },
+    {
+        "id": 12,
+        "firstName": "Ethan",
+        "lastName": "Brown",
+        "color": "violet",
+        "email": "ethanbrown@gmail.com"
+    },
+    {
+        "id": 13,
+        "firstName": "Ava",
+        "lastName": "Davis",
+        "color": "pink",
+        "email": "avadavis@gmail.com"
+    },
+    {
+        "id": 14,
+        "firstName": "Liam",
+        "lastName": "Miller",
+        "color": "lime",
+        "email": "liammiller@gmail.com"
+    },
+    {
+        "id": 15,
+        "firstName": "Mia",
+        "lastName": "Brown",
+        "color": "indigo",
+        "email": "miabrown@gmail.com"
+    },
+    {
+        "id": 16,
+        "firstName": "Noah",
+        "lastName": "Taylor",
+        "color": "black",
+        "email": "noahtaylor@gmail.com"
+    },
+    {
+        "id": 17,
+        "firstName": "Emma",
+        "lastName": "Johnson",
+        "color": "white",
+        "email": "emmajohnson@gmail.com"
+    },
+    {
+        "id": 18,
+        "firstName": "Liam",
+        "lastName": "Anderson",
+        "color": "gold",
+        "email": "liamanderson@gmail.com"
+    },
+    {
+        "id": 19,
+        "firstName": "Sophia",
+        "lastName": "Garcia",
+        "color": "silver",
+        "email": "sophiagarcia@gmail.com"
+    },
+    {
+        "id": 20,
+        "firstName": "Mason",
+        "lastName": "Johnson",
+        "color": "tomato",
+        "email": "masonjohnson@gmail.com"
+    },
+    {
+        "id": 21,
+        "firstName": "Ella",
+        "lastName": "Davis",
+        "color": "coral",
+        "email": "elladavis@gmail.com"
+    },
+    {
+        "id": 22,
+        "firstName": "Benjamin",
+        "lastName": "Taylor",
+        "color": "orange",
+        "email": "benjamintaylor@gmail.com"
+    },
+    {
+        "id": 23,
+        "firstName": "Chloe",
+        "lastName": "Wilson",
+        "color": "peach",
+        "email": "chloewilson@gmail.com"
+    },
+    {
+        "id": 24,
+        "firstName": "William",
+        "lastName": "Clark",
+        "color": "yellow",
+        "email": "williamclark@gmail.com"
+    },
+    {
+        "id": 25,
+        "firstName": "Avery",
+        "lastName": "Anderson",
+        "color": "green",
+        "email": "averyanderson@gmail.com"
+    },
+    {
+        "id": 26,
+        "firstName": "Scarlett",
+        "lastName": "Brown",
+        "color": "teal",
+        "email": "scarlettbrown@gmail.com"
+    },
+    {
+        "id": 27,
+        "firstName": "Grayson",
+        "lastName": "Miller",
+        "color": "blue",
+        "email": "graysonmiller@gmail.com"
+    },
+    {
+        "id": 28,
+        "firstName": "Isabella",
+        "lastName": "Smith",
+        "color": "navy",
+        "email": "isabellasmith@gmail.com"
+    },
+    {
+        "id": 29,
+        "firstName": "Aiden",
+        "lastName": "Lee",
+        "color": "indigo",
+        "email": "aidenlee@gmail.com"
+    },
+    {
+        "id": 30,
+        "firstName": "Mila",
+        "lastName": "Garcia",
+        "color": "violet",
+        "email": "milagarcia@gmail.com"
     }
-  ],
+],
   "groups": [
     {
-      "id": 1,
-      "name": "Surgery",
-      "users": [1]
+        "id": 1,
+        "name": "Surgery",
+        "users": [1, 4, 7, 10, 13, 16, 19, 22, 25, 28]
     },
     {
-      "id": 2,
-      "name": "Pediatrics",
-      "users": [1, 2]
+        "id": 2,
+        "name": "Pediatrics",
+        "users": [2, 5, 8, 11, 14, 17, 20, 23, 26, 29]
     },
     {
-      "id": 3,
-      "name": "Neurology",
-      "users": [3]
-    },
-    {
-      "id": 4,
-      "name": "Dermatology",
-      "users": [4, 5]
-    },
-    {
-      "id": 5,
-      "name": "Psychiatry",
-      "users": [5]
+        "id": 3,
+        "name": "Neurology",
+        "users": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
     }
-  ]
+]
 }
