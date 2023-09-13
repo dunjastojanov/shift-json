@@ -97,5 +97,11 @@
       "header": "New schedule is due in 3 days",
       "text": "New schedule is due in 3 days. Please start working on the schedule."
     }
+  ],
+  "schedules": [
+    {
+      "group": 1,
+      "month": "May"
+    }
   ]
 }
