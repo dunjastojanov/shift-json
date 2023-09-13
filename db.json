@@ -1,363 +1,646 @@
 {
-  "users": [
-    {
-        "id": 1,
-        "firstName": "Dunja",
-        "lastName": "Stojanov",
-        "color": "purple",
-        "email": "dunjastojanov1@gmail.com"
-    },
-    {
-        "id": 2,
-        "firstName": "John",
-        "lastName": "Doe",
-        "color": "blue",
-        "email": "johndoe@gmail.com"
-    },
-    {
-        "id": 3,
-        "firstName": "Jane",
-        "lastName": "Doe",
-        "color": "green",
-        "email": "janedoe@gmail.com"
-    },
-    {
-        "id": 4,
-        "firstName": "Michael",
-        "lastName": "Smith",
-        "color": "red",
-        "email": "michaelsmith@gmail.com"
-    },
-    {
-        "id": 5,
-        "firstName": "Sarah",
-        "lastName": "Johnson",
-        "color": "yellow",
-        "email": "sarahjohnson@gmail.com"
-    },
-    {
-        "id": 6,
-        "firstName": "James",
-        "lastName": "Brown",
-        "color": "orange",
-        "email": "jamesbrown@gmail.com"
-    },
-    {
-        "id": 7,
-        "firstName": "Anna",
-        "lastName": "Taylor",
-        "color": "pink",
-        "email": "annataylor@gmail.com"
-    },
-    {
-        "id": 8,
-        "firstName": "Robert",
-        "lastName": "Wilson",
-        "color": "brown",
-        "email": "robertwilson@gmail.com"
-    },
-    {
-        "id": 9,
-        "firstName": "Emily",
-        "lastName": "Clark",
-        "color": "teal",
-        "email": "emilyclark@gmail.com"
-    },
-    {
-        "id": 10,
-        "firstName": "Daniel",
-        "lastName": "Lee",
-        "color": "gold",
-        "email": "daniellee@gmail.com"
-    },
-    {
-        "id": 11,
-        "firstName": "Olivia",
-        "lastName": "Smith",
-        "color": "turquoise",
-        "email": "oliviasmith@gmail.com"
-    },
-    {
-        "id": 12,
-        "firstName": "Ethan",
-        "lastName": "Brown",
-        "color": "violet",
-        "email": "ethanbrown@gmail.com"
-    },
-    {
-        "id": 13,
-        "firstName": "Ava",
-        "lastName": "Davis",
-        "color": "pink",
-        "email": "avadavis@gmail.com"
-    },
-    {
-        "id": 14,
-        "firstName": "Liam",
-        "lastName": "Miller",
-        "color": "lime",
-        "email": "liammiller@gmail.com"
-    },
-    {
-        "id": 15,
-        "firstName": "Mia",
-        "lastName": "Brown",
-        "color": "indigo",
-        "email": "miabrown@gmail.com"
-    },
-    {
-        "id": 16,
-        "firstName": "Noah",
-        "lastName": "Taylor",
-        "color": "black",
-        "email": "noahtaylor@gmail.com"
-    },
-    {
-        "id": 17,
-        "firstName": "Emma",
-        "lastName": "Johnson",
-        "color": "white",
-        "email": "emmajohnson@gmail.com"
-    },
-    {
-        "id": 18,
-        "firstName": "Liam",
-        "lastName": "Anderson",
-        "color": "gold",
-        "email": "liamanderson@gmail.com"
-    },
-    {
-        "id": 19,
-        "firstName": "Sophia",
-        "lastName": "Garcia",
-        "color": "silver",
-        "email": "sophiagarcia@gmail.com"
-    },
-    {
-        "id": 20,
-        "firstName": "Mason",
-        "lastName": "Johnson",
-        "color": "tomato",
-        "email": "masonjohnson@gmail.com"
-    },
-    {
-        "id": 21,
-        "firstName": "Ella",
-        "lastName": "Davis",
-        "color": "coral",
-        "email": "elladavis@gmail.com"
-    },
-    {
-        "id": 22,
-        "firstName": "Benjamin",
-        "lastName": "Taylor",
-        "color": "orange",
-        "email": "benjamintaylor@gmail.com"
-    },
-    {
-        "id": 23,
-        "firstName": "Chloe",
-        "lastName": "Wilson",
-        "color": "peach",
-        "email": "chloewilson@gmail.com"
-    },
-    {
-        "id": 24,
-        "firstName": "William",
-        "lastName": "Clark",
-        "color": "yellow",
-        "email": "williamclark@gmail.com"
-    },
-    {
-        "id": 25,
-        "firstName": "Avery",
-        "lastName": "Anderson",
-        "color": "green",
-        "email": "averyanderson@gmail.com"
-    },
-    {
-        "id": 26,
-        "firstName": "Scarlett",
-        "lastName": "Brown",
-        "color": "teal",
-        "email": "scarlettbrown@gmail.com"
-    },
-    {
-        "id": 27,
-        "firstName": "Grayson",
-        "lastName": "Miller",
-        "color": "blue",
-        "email": "graysonmiller@gmail.com"
-    },
-    {
-        "id": 28,
-        "firstName": "Isabella",
-        "lastName": "Smith",
-        "color": "navy",
-        "email": "isabellasmith@gmail.com"
-    },
-    {
-        "id": 29,
-        "firstName": "Aiden",
-        "lastName": "Lee",
-        "color": "indigo",
-        "email": "aidenlee@gmail.com"
-    },
-    {
-        "id": 30,
-        "firstName": "Mila",
-        "lastName": "Garcia",
-        "color": "violet",
-        "email": "milagarcia@gmail.com"
-    }
-],
-  "groups": [
-    {
-        "id": 1,
-        "name": "Surgery",
-        "users": [1, 4, 7, 10, 13, 16, 19, 22, 25, 28]
-    },
-    {
-        "id": 2,
-        "name": "Pediatrics",
-        "users": [2, 5, 8, 11, 14, 17, 20, 23, 26, 29]
-    },
-    {
-        "id": 3,
-        "name": "Neurology",
-        "users": [3, 6, 9, 12, 15, 18, 21, 24, 27, 30]
-    }
-],
-  calendars: [
-  {
-    "month": "May",
-    "group": 2,
-    "schedule": {
-        "1": {
-            "day": [5, 8, 11, 14],
-            "night": [2, 17, 20, 23]
-        },
-        "2": {
-            "day": [26, 5, 8],
-            "night": [11, 14, 17]
-        },
-        "3": {
-            "day": [17, 20, 23],
-            "night": [2, 26, 29]
-        },
-        "4": {
-            "day": [20, 23, 26],
-            "night": [5, 8, 11]
-        },
-        "5": {
-            "day": [8, 11, 14],
-            "night": [17, 20, 23]
-        },
-        "6": {
-            "day": [5, 14, 23],
-            "night": [8, 11, 26]
-        },
-        "7": {
-            "day": [17, 23, 8],
-            "night": [20, 5, 2]
-        },
-        "8": {
-            "day": [23, 8, 20],
-            "night": [17, 26, 29]
-        },
-        "9": {
-            "day": [14, 17, 5],
-            "night": [11, 2, 23]
-        },
-        "10": {
-            "day": [11, 23, 17],
-            "night": [8, 14, 26]
-        },
-        "11": {
-            "day": [29, 5, 20],
-            "night": [2, 8, 11]
-        },
-        "12": {
-            "day": [20, 14, 26],
-            "night": [23, 17, 5]
-        },
-        "13": {
-            "day": [23, 26, 8],
-            "night": [20, 14, 11]
-        },
-        "14": {
-            "day": [26, 29, 11],
-            "night": [17, 2, 8]
-        },
-        "15": {
-            "day": [5, 2, 17],
-            "night": [23, 20, 14]
-        },
-        "16": {
-            "day": [8, 23, 5],
-            "night": [11, 26, 29]
-        },
-        "17": {
-            "day": [17, 11, 2],
-            "night": [8, 20, 5]
-        },
-        "18": {
-            "day": [20, 5, 23],
-            "night": [14, 17, 8]
-        },
-        "19": {
-            "day": [2, 8, 14],
-            "night": [23, 26, 11]
-        },
-        "20": {
-            "day": [29, 17, 23],
-            "night": [5, 20, 2]
-        },
-        "21": {
-            "day": [11, 20, 17],
-            "night": [8, 14, 26]
-        },
-        "22": {
-            "day": [8, 14, 20],
-            "night": [5, 11, 23]
-        },
-        "23": {
-            "day": [26, 23, 2],
-            "night": [17, 8, 29]
-        },
-        "24": {
-            "day": [14, 17, 11],
-            "night": [20, 5, 23]
-        },
-        "25": {
-            "day": [23, 20, 5],
-            "night": [8, 14, 2]
-        },
-        "26": {
-            "day": [17, 2, 29],
-            "night": [11, 23, 20]
-        },
-        "27": {
-            "day": [5, 8, 23],
-            "night": [14, 17, 26]
-        },
-        "28": {
-            "day": [11, 14, 20],
-            "night": [2, 29, 5]
-        },
-        "29": {
-            "day": [23, 26, 8],
-            "night": [20, 17, 11]
-        },
-        "30": {
-            "day": [20, 17, 2],
-            "night": [23, 8, 5]
-        },
-        "31": {
-            "day": [29, 5, 14],
-            "night": [26, 2, 11]
-        }
-    }
-}
-  ]
+   "users":[
+      {
+         "id":1,
+         "firstName":"Dunja",
+         "lastName":"Stojanov",
+         "color":"purple",
+         "email":"dunjastojanov1@gmail.com"
+      },
+      {
+         "id":2,
+         "firstName":"John",
+         "lastName":"Doe",
+         "color":"blue",
+         "email":"johndoe@gmail.com"
+      },
+      {
+         "id":3,
+         "firstName":"Jane",
+         "lastName":"Doe",
+         "color":"green",
+         "email":"janedoe@gmail.com"
+      },
+      {
+         "id":4,
+         "firstName":"Michael",
+         "lastName":"Smith",
+         "color":"red",
+         "email":"michaelsmith@gmail.com"
+      },
+      {
+         "id":5,
+         "firstName":"Sarah",
+         "lastName":"Johnson",
+         "color":"yellow",
+         "email":"sarahjohnson@gmail.com"
+      },
+      {
+         "id":6,
+         "firstName":"James",
+         "lastName":"Brown",
+         "color":"orange",
+         "email":"jamesbrown@gmail.com"
+      },
+      {
+         "id":7,
+         "firstName":"Anna",
+         "lastName":"Taylor",
+         "color":"pink",
+         "email":"annataylor@gmail.com"
+      },
+      {
+         "id":8,
+         "firstName":"Robert",
+         "lastName":"Wilson",
+         "color":"brown",
+         "email":"robertwilson@gmail.com"
+      },
+      {
+         "id":9,
+         "firstName":"Emily",
+         "lastName":"Clark",
+         "color":"teal",
+         "email":"emilyclark@gmail.com"
+      },
+      {
+         "id":10,
+         "firstName":"Daniel",
+         "lastName":"Lee",
+         "color":"gold",
+         "email":"daniellee@gmail.com"
+      },
+      {
+         "id":11,
+         "firstName":"Olivia",
+         "lastName":"Smith",
+         "color":"turquoise",
+         "email":"oliviasmith@gmail.com"
+      },
+      {
+         "id":12,
+         "firstName":"Ethan",
+         "lastName":"Brown",
+         "color":"violet",
+         "email":"ethanbrown@gmail.com"
+      },
+      {
+         "id":13,
+         "firstName":"Ava",
+         "lastName":"Davis",
+         "color":"pink",
+         "email":"avadavis@gmail.com"
+      },
+      {
+         "id":14,
+         "firstName":"Liam",
+         "lastName":"Miller",
+         "color":"lime",
+         "email":"liammiller@gmail.com"
+      },
+      {
+         "id":15,
+         "firstName":"Mia",
+         "lastName":"Brown",
+         "color":"indigo",
+         "email":"miabrown@gmail.com"
+      },
+      {
+         "id":16,
+         "firstName":"Noah",
+         "lastName":"Taylor",
+         "color":"black",
+         "email":"noahtaylor@gmail.com"
+      },
+      {
+         "id":17,
+         "firstName":"Emma",
+         "lastName":"Johnson",
+         "color":"white",
+         "email":"emmajohnson@gmail.com"
+      },
+      {
+         "id":18,
+         "firstName":"Liam",
+         "lastName":"Anderson",
+         "color":"gold",
+         "email":"liamanderson@gmail.com"
+      },
+      {
+         "id":19,
+         "firstName":"Sophia",
+         "lastName":"Garcia",
+         "color":"silver",
+         "email":"sophiagarcia@gmail.com"
+      },
+      {
+         "id":20,
+         "firstName":"Mason",
+         "lastName":"Johnson",
+         "color":"tomato",
+         "email":"masonjohnson@gmail.com"
+      },
+      {
+         "id":21,
+         "firstName":"Ella",
+         "lastName":"Davis",
+         "color":"coral",
+         "email":"elladavis@gmail.com"
+      },
+      {
+         "id":22,
+         "firstName":"Benjamin",
+         "lastName":"Taylor",
+         "color":"orange",
+         "email":"benjamintaylor@gmail.com"
+      },
+      {
+         "id":23,
+         "firstName":"Chloe",
+         "lastName":"Wilson",
+         "color":"peach",
+         "email":"chloewilson@gmail.com"
+      },
+      {
+         "id":24,
+         "firstName":"William",
+         "lastName":"Clark",
+         "color":"yellow",
+         "email":"williamclark@gmail.com"
+      },
+      {
+         "id":25,
+         "firstName":"Avery",
+         "lastName":"Anderson",
+         "color":"green",
+         "email":"averyanderson@gmail.com"
+      },
+      {
+         "id":26,
+         "firstName":"Scarlett",
+         "lastName":"Brown",
+         "color":"teal",
+         "email":"scarlettbrown@gmail.com"
+      },
+      {
+         "id":27,
+         "firstName":"Grayson",
+         "lastName":"Miller",
+         "color":"blue",
+         "email":"graysonmiller@gmail.com"
+      },
+      {
+         "id":28,
+         "firstName":"Isabella",
+         "lastName":"Smith",
+         "color":"navy",
+         "email":"isabellasmith@gmail.com"
+      },
+      {
+         "id":29,
+         "firstName":"Aiden",
+         "lastName":"Lee",
+         "color":"indigo",
+         "email":"aidenlee@gmail.com"
+      },
+      {
+         "id":30,
+         "firstName":"Mila",
+         "lastName":"Garcia",
+         "color":"violet",
+         "email":"milagarcia@gmail.com"
+      }
+   ],
+   "groups":[
+      {
+         "id":1,
+         "name":"Surgery",
+         "users":[
+            1,
+            4,
+            7,
+            10,
+            13,
+            16,
+            19,
+            22,
+            25,
+            28
+         ]
+      },
+      {
+         "id":2,
+         "name":"Pediatrics",
+         "users":[
+            2,
+            5,
+            8,
+            11,
+            14,
+            17,
+            20,
+            23,
+            26,
+            29
+         ]
+      },
+      {
+         "id":3,
+         "name":"Neurology",
+         "users":[
+            3,
+            6,
+            9,
+            12,
+            15,
+            18,
+            21,
+            24,
+            27,
+            30
+         ]
+      }
+   ],
+   "calendars":[
+      {
+         "month":"May",
+         "group":2,
+         "schedule":{
+            "1":{
+               "day":[
+                  5,
+                  8,
+                  11,
+                  14
+               ],
+               "night":[
+                  2,
+                  17,
+                  20,
+                  23
+               ]
+            },
+            "2":{
+               "day":[
+                  26,
+                  5,
+                  8
+               ],
+               "night":[
+                  11,
+                  14,
+                  17
+               ]
+            },
+            "3":{
+               "day":[
+                  17,
+                  20,
+                  23
+               ],
+               "night":[
+                  2,
+                  26,
+                  29
+               ]
+            },
+            "4":{
+               "day":[
+                  20,
+                  23,
+                  26
+               ],
+               "night":[
+                  5,
+                  8,
+                  11
+               ]
+            },
+            "5":{
+               "day":[
+                  8,
+                  11,
+                  14
+               ],
+               "night":[
+                  17,
+                  20,
+                  23
+               ]
+            },
+            "6":{
+               "day":[
+                  5,
+                  14,
+                  23
+               ],
+               "night":[
+                  8,
+                  11,
+                  26
+               ]
+            },
+            "7":{
+               "day":[
+                  17,
+                  23,
+                  8
+               ],
+               "night":[
+                  20,
+                  5,
+                  2
+               ]
+            },
+            "8":{
+               "day":[
+                  23,
+                  8,
+                  20
+               ],
+               "night":[
+                  17,
+                  26,
+                  29
+               ]
+            },
+            "9":{
+               "day":[
+                  14,
+                  17,
+                  5
+               ],
+               "night":[
+                  11,
+                  2,
+                  23
+               ]
+            },
+            "10":{
+               "day":[
+                  11,
+                  23,
+                  17
+               ],
+               "night":[
+                  8,
+                  14,
+                  26
+               ]
+            },
+            "11":{
+               "day":[
+                  29,
+                  5,
+                  20
+               ],
+               "night":[
+                  2,
+                  8,
+                  11
+               ]
+            },
+            "12":{
+               "day":[
+                  20,
+                  14,
+                  26
+               ],
+               "night":[
+                  23,
+                  17,
+                  5
+               ]
+            },
+            "13":{
+               "day":[
+                  23,
+                  26,
+                  8
+               ],
+               "night":[
+                  20,
+                  14,
+                  11
+               ]
+            },
+            "14":{
+               "day":[
+                  26,
+                  29,
+                  11
+               ],
+               "night":[
+                  17,
+                  2,
+                  8
+               ]
+            },
+            "15":{
+               "day":[
+                  5,
+                  2,
+                  17
+               ],
+               "night":[
+                  23,
+                  20,
+                  14
+               ]
+            },
+            "16":{
+               "day":[
+                  8,
+                  23,
+                  5
+               ],
+               "night":[
+                  11,
+                  26,
+                  29
+               ]
+            },
+            "17":{
+               "day":[
+                  17,
+                  11,
+                  2
+               ],
+               "night":[
+                  8,
+                  20,
+                  5
+               ]
+            },
+            "18":{
+               "day":[
+                  20,
+                  5,
+                  23
+               ],
+               "night":[
+                  14,
+                  17,
+                  8
+               ]
+            },
+            "19":{
+               "day":[
+                  2,
+                  8,
+                  14
+               ],
+               "night":[
+                  23,
+                  26,
+                  11
+               ]
+            },
+            "20":{
+               "day":[
+                  29,
+                  17,
+                  23
+               ],
+               "night":[
+                  5,
+                  20,
+                  2
+               ]
+            },
+            "21":{
+               "day":[
+                  11,
+                  20,
+                  17
+               ],
+               "night":[
+                  8,
+                  14,
+                  26
+               ]
+            },
+            "22":{
+               "day":[
+                  8,
+                  14,
+                  20
+               ],
+               "night":[
+                  5,
+                  11,
+                  23
+               ]
+            },
+            "23":{
+               "day":[
+                  26,
+                  23,
+                  2
+               ],
+               "night":[
+                  17,
+                  8,
+                  29
+               ]
+            },
+            "24":{
+               "day":[
+                  14,
+                  17,
+                  11
+               ],
+               "night":[
+                  20,
+                  5,
+                  23
+               ]
+            },
+            "25":{
+               "day":[
+                  23,
+                  20,
+                  5
+               ],
+               "night":[
+                  8,
+                  14,
+                  2
+               ]
+            },
+            "26":{
+               "day":[
+                  17,
+                  2,
+                  29
+               ],
+               "night":[
+                  11,
+                  23,
+                  20
+               ]
+            },
+            "27":{
+               "day":[
+                  5,
+                  8,
+                  23
+               ],
+               "night":[
+                  14,
+                  17,
+                  26
+               ]
+            },
+            "28":{
+               "day":[
+                  11,
+                  14,
+                  20
+               ],
+               "night":[
+                  2,
+                  29,
+                  5
+               ]
+            },
+            "29":{
+               "day":[
+                  23,
+                  26,
+                  8
+               ],
+               "night":[
+                  20,
+                  17,
+                  11
+               ]
+            },
+            "30":{
+               "day":[
+                  20,
+                  17,
+                  2
+               ],
+               "night":[
+                  23,
+                  8,
+                  5
+               ]
+            },
+            "31":{
+               "day":[
+                  29,
+                  5,
+                  14
+               ],
+               "night":[
+                  26,
+                  2,
+                  11
+               ]
+            }
+         }
+      }
+   ]
 }
