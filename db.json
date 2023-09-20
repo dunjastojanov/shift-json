@@ -101,11 +101,28 @@
   "notifications": [
     {
       "header": "Schedule for next week has been altered",
-      "text": "Dunja Stojanov has switched with Jana Stojanov on the night shift on May 3rd."
+      "text": "John Doe has switched with Ana Taylor on the night shift on May 3rd.",
+      "type": "basic"
     },
     {
       "header": "New schedule is due in 3 days",
-      "text": "New schedule is due in 3 days. Please start working on the schedule."
+      "text": "New schedule is due in 3 days. Please start working on the schedule.",
+      "type": "basic"
+    },
+    {
+      "header": "John Doe Vacation Request",
+      "text": "John Doe has requested a vacation request from July 3rd until July 13th.",
+      "type": "request"
+    },
+    {
+      "header": "Robert Wilson Sick Day Request",
+      "text": "Robert Wilson has requested a vacation request from May 17th until May 20th.",
+      "type": "request"
+    },
+    {
+      "header": "Robert Wilson Switch Request",
+      "text": "Robert Wilson has requested to switch with you from May 23th day shift to May 24th day shift.",
+      "type": "request"
     }
   ],
   "schedules": [
